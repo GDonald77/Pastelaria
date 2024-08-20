@@ -1,0 +1,79 @@
+#form{
+    width: 700px;
+    min-height: 500px;
+    padding: 20px;
+    margin: 0px auto;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1{
+    letter-spacing: 6px;
+}
+
+.divInput{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+    
+}
+
+.input{
+    width: 400px;
+    padding: 15px 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 0.8em;
+}
+
+#divEnde{
+   display: none !important;
+}
+
+#divBtn{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-weight: bold;
+    background-color: #006400;
+    transition: 0.2s;
+}
+
+#btnLimpar:hover{
+    opacity: 0.5;
+    background-color: #006400;
+}
+
+#btnEnviar{
+     background-color: red;
+}
+
+#btnEnviar:hover{
+    opacity: 0.5;
+    background-color: red;
+}
+
+textarea{
+    height: 300px;
+    resize: none;
+}

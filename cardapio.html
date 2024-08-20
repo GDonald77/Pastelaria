@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Pastéis</title>
+
+    <link rel='shortcut icon' href='imagens/favicon.ico'>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estiloscardapio.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="geral">
+        <section id="cabecalho">
+            <div id="logo">
+                <a href="index.html"><img src="imagens/logo.jpg" alt="Logo"></a>
+            </div>
+            <nav id="menu">
+                <a href="index.html">HOME</a>
+                <a href="cardapio.html">CARDÁPIO</a>
+                <a href="cadastro.html">CADASTRO</a>
+                <a href="contato.html">CONTATO</a>
+                <a href="sobre.html">SOBRE</a>
+            </nav>
+        </section>
+
+        <section id="conteudo">
+            <div id="cardapio">
+                <!-- Adicione aqui o cardápio de pastéis -->
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="imagens/pastel1.jpg" alt="Pastel de Carne">
+                    </div>
+                    <div class="descricao">Pastel de Carne</div>
+                    <div class="detalhe">Carne moída, queijo, azeitonas, temperos especiais</div>
+                    <div class="valor">R$ 10,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-name="Pastel de Carne" data-price="10.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="imagens/pastel2.jpg" alt="Pastel de Queijo">
+                    </div>
+                    <div class="descricao">Pastel de Queijo</div>
+                    <div class="detalhe">Queijo derretido com temperos</div>
+                    <div class="valor">R$ 8,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-name="Pastel de Queijo" data-price="8.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="imagens/pastel3.jpg" alt="Pastel de Frango">
+                    </div>
+                    <div class="descricao">Pastel de Frango</div>
+                    <div class="detalhe">Frango desfiado, catupiry, ervas finas</div>
+                    <div class="valor">R$ 9,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-name="Pastel de Frango" data-price="9.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="imagens/pastel4.jpg" alt="Pastel de Palmito">
+                    </div>
+                    <div class="descricao">Pastel de Palmito</div>
+                    <div class="detalhe">Palmito, milho, queijo e temperos</div>
+                    <div class="valor">R$ 11,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-name="Pastel de Palmito" data-price="11.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="imagens/pastel5.jpg" alt="Pastel de Pizza">
+                    </div>
+                    <div class="descricao">Pastel de Pizza</div>
+                    <div class="detalhe">Molho de tomate, queijo, presunto, orégano</div>
+                    <div class="valor">R$ 12,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-name="Pastel de Pizza" data-price="12.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgCard">
+                        <img src="imagens/pastel6.jpg" alt="Pastel de Camarão">
+                    </div>
+                    <div class="descricao">Pastel de Camarão</div>
+                    <div class="detalhe">Camarão, alho-poró, queijo e especiarias</div>
+                    <div class="valor">R$ 14,00</div>
+                    <div class="btnAdd">
+                        <button class="add" data-name="Pastel de Camarão" data-price="14.00">ADICIONAR</button>
+                    </div>
+                </div>
+
+                <!-- Adicione mais itens do cardápio conforme necessário -->
+            </div>
+
+            <div id="sacola">
+                <div id="btnSacola">
+                    <div id="total">
+                        <div>TOTAL R$</div>
+                        <div id="vlrTotal">0,00</div>
+                    </div>
+                    <button id="finalizarCompra">FINALIZAR COMPRA</button>
+                </div>
+
+                <div id="itens">
+                    <!-- Itens serão adicionados aqui dinamicamente -->
+                </div>
+            </div>
+        </section>
+
+        <footer id="rodape">
+            <p>&copy; 2024 Todos os Direitos reservados para PASTELARIA DO DONALD</p>
+            <p>CNPJ: 00.008.111/1XXXX-00 - Rua Sei la das Quantas, s/n, ARACAJU, SE, 49066-321 tel.: 079910111214</p>
+        </footer>
+    </div>
+</body>
+
+</html>

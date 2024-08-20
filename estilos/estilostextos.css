@@ -1,0 +1,42 @@
+/* estilos/estilostextos.css */
+
+/* Estilizando o texto da seção de conteúdo */
+#texto {
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#texto h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#texto p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+#texto p:last-of-type {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    #texto {
+        padding: 15px;
+    }
+
+    #texto h2 {
+        font-size: 1.8em;
+    }
+
+    #texto p {
+        font-size: 1em;
+    }
+}

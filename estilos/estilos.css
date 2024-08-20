@@ -1,0 +1,162 @@
+/* Reset básico e estilo de fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+#geral {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+#cabecalho {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#logo img {
+    max-height: 60px;
+}
+
+#menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+#menu a:hover {
+    color: #ffd54f;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Estilo do banner */
+#banner {
+    background: url('imagens/banner.jpg') no-repeat center center/cover;
+    color: #000000;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #ff5722; /* Cor vibrante para o texto principal */
+}
+
+.banner-content span {
+    color: #000000; /* Cor do destaque */
+}
+
+.banner-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #111111;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+/* Estilo dos destaques */
+#destaques {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#destaques h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.destaques-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destaque {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+}
+
+.destaque img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.destaque h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.destaque p {
+    font-size: 1em;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffab40;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #f57c00;
+    transform: scale(1.05);
+}
+
+/* Estilo do rodapé */
+#rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#rodape p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}

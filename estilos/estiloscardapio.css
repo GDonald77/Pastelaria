@@ -1,0 +1,200 @@
+/* estilos/estiloscardapio.css */
+
+#cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.imgCard img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.descricao {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.valor {
+    color: #f39c12;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.btnAdd {
+    margin-top: 15px;
+}
+
+.add {
+    background: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.add:hover {
+    background: #e67e22;
+}
+
+#sacola {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 30px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnSacola {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ff5722;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+#total {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#vlrTotal {
+    color: #ff5722;
+}
+
+#finalizarCompra {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#finalizarCompra:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+/* Estilo dos itens no carrinho */
+#itens {
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item img {
+    max-width: 60px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.item .info {
+    flex: 1;
+}
+
+.item .info h4 {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.item .info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.item .preco {
+    font-weight: bold;
+    color: #ff5722;
+    margin-right: 20px;
+}
+
+.item .remove {
+    background-color: #ffab40;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.item .remove:hover {
+    background-color: #f57c00;
+    transform: scale(1.05);
+}
+/* Estilo da div de preço no carrinho */
+.item .valorItem {
+    font-size: 1.2em; /* Aumenta o tamanho da fonte para tornar o preço mais visível */
+    font-weight: bold;
+    color: #ff5722; /* Cor vibrante para o preço */
+    width: 120px; /* Define uma largura fixa para a div do preço */
+    text-align: right; /* Alinha o texto à direita */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Ajusta o layout dos itens no carrinho */
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Garante que o espaço é distribuído uniformemente */
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.item .descricao {
+    flex: 1;
+    font-size: 1.1em;
+    margin-right: 15px;
+}
+
+.item .quantidade {
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.item .remove {
+    background-color: #ffab40;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.item .remove:hover {
+    background-color: #f57c00;
+    transform: scale(1.05);
+}
